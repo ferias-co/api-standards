@@ -90,8 +90,8 @@ Use três códigos de resposta simples e comuns indicando (1) sucesso, (2) falha
 | Status | Descrição                  | Retorno                                             |
 |--------|----------------------------|-----------------------------------------------------|
 |200     | OK                         | Retorna o conteudo solicitado                       |
-|400     | Pedido inválido            | Retorna somente o status ou mensagem de do usuário  |
-|500     | Erro interno do servidor   | Retorna somente os status ou mensagem de do usuário |
+|400     | Pedido inválido            | Retorna somente o status ou mensagem do usuário ( em casos de BFF)  |
+|500     | Erro interno do servidor   | Retorna somente os status ou mensagem do usuário ( em casos de BFF) |
 
 ### Mock-up Responses
 É sugerido que cada recurso aceite um parâmetro 'sandbox' no servidor de teste. A passagem desse parâmetro deve retornar uma resposta de dados simulada (ignorando o back-end).
