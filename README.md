@@ -82,6 +82,16 @@ GET http://services.ferias.co/accomodations/2d38df3c-8b37-4a6c-ac28-594806e30dc2
   }]
 }
 ```
+### Manipulação de erros
+As respostas de erro devem incluir um código de status HTTP comum, mensagem para o desenvolvedor, ou mensagem para o usuário final (quando apropriado), código de erro interno (correspondente a algum ID determinado internamente).
+
+Use três códigos de resposta simples e comuns indicando (1) sucesso, (2) falha devido a problema do lado do cliente, (3) falha devido a problema do lado do servidor:
+
+| Status | Descrição                  | Retorno                                             |
+|--------|----------------------------|-----------------------------------------------------|
+|200     | OK                         | Retorna o conteudo solicitado                       |
+|400     | Pedido inválido            | Retorna somente o status ou mensagem de do usuário  |
+|500     | Erro interno do servidor   | Retorna somente os status ou mensagem de do usuário |
 
 ### Mock-up Responses
 É sugerido que cada recurso aceite um parâmetro 'sandbox' no servidor de teste. A passagem desse parâmetro deve retornar uma resposta de dados simulada (ignorando o back-end).
