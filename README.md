@@ -67,15 +67,15 @@ GET http://services.ferias.co/accomodations/2d38df3c-8b37-4a6c-ac28-594806e30dc2
  "id":"2d38df3c-8b37-4a6c-ac28-594806e30dc2",
  "name":"Blue Tree Premium Alphaville",
  "address":"Alameda Madeira, 398 - Alphaville, Barueri - SP, 06454-010",
- reviews:[{
+ "reviews":[{
     "id":"e38def1b-3646-43ee-aa78-9de43c1fd61a",
     "subscriber_id":"b5f3b669-5b07-4c00-a357-c5b657ea753a",
     "subscriber_name":"b5f3b669-5b07-4c00-a357-c5b657ea753a",
-    "ranking":3.5
+    "ranking":3.5,
     "comments":"Nice"
  }],
  "photos":[{
-    "id":"cef59c9b-461f-4342-bc2d-f7bbd6299d06"
+    "id":"cef59c9b-461f-4342-bc2d-f7bbd6299d06",
     "title":"Blue Tree Premium Alphaville - Quarto",
     "description":"Quarto de Casal",
     "url":"https://services.ferias.com/images/cef59c9b-461f-4342-bc2d-f7bbd6299d06"
